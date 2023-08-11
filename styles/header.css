@@ -1,0 +1,38 @@
+
+  
+  .search{
+    display: block;
+  }
+  .header{
+    height: 55px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; 
+    position: fixed;
+    z-index:100;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: white;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: rgb(207, 202, 202)
+  }
+  .notification-icons-container{
+    position: relative;
+  }
+  .notifications-count{
+    position: absolute;
+    background-color: rgb(189, 5, 5);
+    font-family: Roboto, Arial;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    font-size: 11px;
+    border-radius: 10px;
+    color: white;
+    top:-2px;
+    right:-4px;
+    font-weight: 700;
+  }
